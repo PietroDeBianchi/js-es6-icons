@@ -1,5 +1,52 @@
+/* GENERAL STYLE */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/* HEADER STYLE */
+header {
+    height: 70px;
+    line-height: 70px;
+    background-color: white;
+    color: #57AED8;
+}
+
+header h1 {
+    margin-left: 16px;
+}
+
+/* NAV STYLE */
+nav {
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background-color: #57AED8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+nav label {
+    margin-right: 8px;
+}
+
+/* MAIN STYLE */
+#container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.msIcon {
+    width: calc(100% / 5 - 20px);
+    margin: 24px 0;
+    height: 120px;
+    border: 1px solid black;
 }
